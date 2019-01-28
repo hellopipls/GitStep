@@ -55,6 +55,9 @@ document.getElementById('mes').style.backgroundColor='blue';
 mes.addEventListener("mouseover", textchange);
 mes.addEventListener("mouseout", textreturn);
 
+function getPerson(name, surname) {
+  alert (name + " " + surname);
+}
 
 
 //menu-test (сладости)

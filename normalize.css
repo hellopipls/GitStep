@@ -1,10 +1,7 @@
-/*! normalize.css v8.0.1 | MIT License | 
-github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * 1. Correct the line height in all browsers.
@@ -17,9 +14,7 @@ html {
 }
 
 /* Sections
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * Remove the margin in all browsers.
@@ -38,8 +33,7 @@ main {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` 
-and
+ * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
@@ -49,9 +43,7 @@ h1 {
 }
 
 /* Grouping content
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -75,9 +67,7 @@ pre {
 }
 
 /* Text-level semantics
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * Remove the gray background on active links in IE 10.
@@ -89,8 +79,7 @@ a {
 
 /**
  * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and 
-Safari.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
 abbr[title] {
@@ -150,9 +139,7 @@ sup {
 }
 
 /* Embedded content
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * Remove the border on images inside links in IE 10.
@@ -163,9 +150,7 @@ img {
 }
 
 /* Forms
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * 1. Change the font styles in all browsers.
@@ -248,8 +233,7 @@ fieldset {
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero 
-out
+ * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
@@ -290,8 +274,7 @@ textarea {
 }
 
 /**
- * Correct the cursor style of increment and decrement buttons in 
-Chrome.
+ * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
 [type="number"]::-webkit-inner-spin-button,
@@ -328,9 +311,7 @@ Chrome.
 }
 
 /* Interactive
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
@@ -349,9 +330,7 @@ summary {
 }
 
 /* Misc
-   
-========================================================================== 
-*/
+   ========================================================================== */
 
 /**
  * Add the correct display in IE 10+.

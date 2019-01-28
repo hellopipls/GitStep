@@ -1,20 +1,233 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Simple test</title>    
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link rel="stylesheet" href="https:/maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Simple test</title>    
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" href="https:/maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>	
 
-Hello Git!
+<body>
+  <header class='site-header clearfix'> 
+   <div id="nav">
+    <div class="menu-item">
+      Меню 1      
+        <div class="submenu">
+          Подменю_1        
+          Подменю_2
+        </div>      
+    </div>
+    <div class="menu-item">
+      Меню 2
+      <div class="submenu">
+        Подменю_1
+        Подменю_2        
+        Подменю_3
+      </div>
+    </div>
+    <div class="menu-item">
+      Меню 3
+      <div class="submenu">
+        Подменю_1
+        Подменю_2        
+        Подменю_3
+      </div>
+    </div>
+  </div>
+</header>
 
-	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>	
+
+<main>
+  <section class="infosite"> 
+  
+
+    <h1 >Формы для заказа и регистрации</h1>
+    <p id="simple-text">Здесь будет размещен логотип и краткая информация об объекте.</p>
+
+    
+
+   
+      <input class="navButton2" value="Кнопка1-a" id="buton" onclick='sayThanks()' type="button">
+      <button id="elem" onclick="this.classList.toggle('wide');">
+        Кнопка2
+      </button>  
+   
+      <input type="button" id="mes" value="animation">    
+   
+  </section> 
+
+
+  <div class="wrapper-coll clearfix">
+    <section class="col-main"> 
+
+      <div id="tabs">
+    <div class="tabs-titles-wrap">
+        <div class="tab whiteborder">tab 1</div>
+        <div class="tab">tab 2</div>
+        <div class="tab">tab 3</div>
+    </div>
+        <div class="tabContent">
+           <div id="oh">
+        <article class="post">   
+             
+          <div ><h2>Лошадь.</h2> <p>Домашняя лошадь — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+            <input type="button" class="puph" value="Скрыть текст" />
+          </div>
+        </article>
+
+        <article class="post">        
+          <div > <h2>Осёл.</h2>  <p>Домашний осёл или ишак — одомашненный подвид дикого осла, сыгравший важную историческую роль в развитии хозяйства и культуры человека. Все одомашненные ослы относятся к африканским ослам.</p>
+            <input type="button" class="puph" value="Скрыть текст" />
+          </div>
+        </article>
+
+        <article class="post">        
+          <div ><h2>Корова, а также пара слов о диком быке, о волах и о тёлках.</h2>   
+            <p>Коро́ва — самка домашнего быка, одомашненного подвида дикого быка, парнокопытного жвачного животного семейства полорогих. Самцы вида называются быками, молодняк — телятами, кастрированные самцы — волами. Молодых (до первой стельности) самок называют тёлками.</p>
+            <input type="button" class="puph" value="Скрыть текст" />
+          </div>
+        </article>
+
+      </div>
+         </div>
+        <div class="tabContent">2</div>
+        <div class="tabContent">3</div>
+    </div>
+
+
+    
+     </section>
+
+    <aside class="col-sidebar">
+      <div class="container-form">
+        <form type="get" action="form.php">
+          <input type="text" id="search-form" name="search" placeholder="поиск">
+          <button> <i class="fa fa-search"></i></button>
+        </form>
+       </div>
+
+       <div>
+        <button id="myBtn"> Модальное окно </button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form >
+             <input type="text" id="registr1" placeholder="Ваше имя"><br>
+             <input type="text" id="registr2" placeholder="Ваш телефон"><br>
+             <input type="submit" class="registr" value="Отправить">
+           </form>
+         </div>
+       </div>
+     </div>
+
+
+         <div class="menu-test" id="sweeties" > 
+      <span class="title">Сладости (нажми меня)!</span>
+      <ul>
+        <li>Пирог</li>
+        <li>Пончик</li>
+        <li>Мед</li>
+      </ul>
+      </div>
+
+      <div>
+        <input name="r1" type="radio" value="5"> Первый
+        <input name="r1" type="radio" value="13"> Второй
+        <input name="r1" type="radio" value="53"> Третий
+        <button onclick="fun2()"> Какой выбран </button> 
+      </div>
+
+      <div>
+        <select id="mySelect" onchange="fun3()">
+          <option>Яблоки</option>
+          <option>Апельсины</option>
+          <option>Груши</option>
+          <option>Бананы</option>          
+        </select>
+      </div>
+      <div>
+       <div>
+         <input type="range" min="0" max="100" step="2" oninput="fun4()" id="r2">       
+         <p id="ones"></p>
+       </div>
+
+       <div>                      
+        <input type="range" min="0" max="100" step="2" oninput="fun5()" id="r3">        
+        <input type="text" id="i1">                   
+      </div>
+
+      <div id="break">                   
+        <input type="range" min="0" max="100" step="2" oninput="fun6()" id="r4">        
+        <div id="test"></div>                   
+      </div>
+    </div>
+
+    
+<div class="block1">
+
+<p>Верхний левый угол:
+ <input type="range" id="rtl" min="0" max="100" value="0" oninput="fun7()">    
+ <input type="text" id="ttl" value="0" > 
+</p>
+
+<p>Верхний правый угол:
+ <input type="range" id="rtr" min="0" max="100" value="0" oninput="fun7()">
+ <input type="text" id="ttr" value="0" >
+</p>
+      
+<p>Нижний правый угол:
+ <input type="range" id="rbr" min="0" max="100" value="0" oninput="fun7()">
+ <input type="text" id="tbr" value="0" >
+</p>
+      
+<p>Нижний левый угол:
+ <input type="range" id="rbl" min="0" max="100" value="0" oninput="fun7()">
+ <input type="text" id="tbl" value="0">
+</p>
+
+</div>       
+<div id="block"></div>  
+
+
+    </aside>
+  </div>
+</main>
+
+
+<footer id="footer_site">
+  <ul class="widget-social"> 
+    <li>    
+      <a href="#" class="fab fa-vk"></a>                    
+    </li> 
+
+    <li>    
+      <a href="#" class="fab fa-facebook-f"></a>                
+    </li> 
+
+    <li>    
+      <a href="#" class="fab fa-twitter"></a>                 
+    </li> 
+
+
+
+  </ul>
+  <div> 
+    <span> &copy; 2018 </span>
+    <a href="#simple-text">
+     <p>Вот оно, глупое счастье</p>
+     <p> С белыми окнами в сад!</p>
+          <p>(Есенин)</p>
+   </a>  
+   </div>  
+</footer>
+
+
+
+
+<script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>

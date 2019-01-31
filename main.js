@@ -27,7 +27,7 @@ function closeMenu(){
 }
 //Кнопка1-а
  function sayThanks() {
-  alert( 'Спасибо!' );
+  alert( 'Нажмите кнопку "модальное окно" И пройдите регистрацию!' );
 }
 
 buton.onclick = sayThanks;
